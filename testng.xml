@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1" parallel="tests" thread-count="2">
+	 <test name="Ace2three test1" >
+	            <parameter name="deviceName" value="e248f060"></parameter>
+	 		    <parameter name="resolution" value="null"></parameter>
+	 		    <parameter name="activityName" value="com.ace2three.activity.SplashActivity"></parameter>
+	  		    <parameter name="app" value="null"></parameter>
+	  		    <parameter name="appPackage" value="air.com.ace2three.mobile.cash"></parameter>
+	   		    <parameter name="appType" value="andapp"></parameter>
+	   		    <parameter name="environment" value="mobile"></parameter>
+	     	    <parameter name="platform" value="android"></parameter>
+	       	    <parameter name="platformVersion" value="5.0.2"></parameter>
+	       	    <parameter name="appiumUrl" value="http://127.0.0.1:4723"></parameter>
+	            <parameter name="browsername" value="chrome"></parameter>
+	          	<parameter name="udid" value="e248f060"></parameter>
+	           	<parameter name="portaddress" value="null"></parameter>
+	          	<parameter name="testEnvironment" value="qa"></parameter>
+	          	<parameter name="gps" value="on"></parameter>
+	          	<parameter name="systemPort" value="8200"></parameter>
+	  	 <classes>
+	      	 <class name="com.ace2three.test.suite.LoginTestSuite">
+	      		<methods>
+	      		<include name ="TS_GamePlay_07"></include>
+	      		</methods>
+	      	
+   			</class>
+   			
+   		</classes>
+	  </test> 
+	  
+ <!--  <test name="Ace2three test2" >
+	            <parameter name="deviceName" value="emulator-5554"></parameter>
+	 		    <parameter name="resolution" value="null"></parameter>
+	 		    <parameter name="activityName" value="com.ace2three.activity.SplashActivity"></parameter>
+	  		    <parameter name="app" value="null"></parameter>
+	  		    <parameter name="appPackage" value="air.com.ace2three.mobile.cash"></parameter>
+	   		    <parameter name="appType" value="andapp"></parameter>
+	   		    <parameter name="environment" value="mobile"></parameter>
+	     	    <parameter name="platform" value="android"></parameter>
+	       	    <parameter name="platformVersion" value="6.0"></parameter>
+	       	    <parameter name="appiumUrl" value="http://127.0.0.1:4723"></parameter>
+	            <parameter name="browsername" value="chrome"></parameter>
+	          	<parameter name="udid" value="emulator-5554"></parameter>
+	           	<parameter name="portaddress" value="null"></parameter>
+	          	<parameter name="testEnvironment" value="qa"></parameter>
+	          	<parameter name="gps" value="on"></parameter>
+	          	<parameter name="systemPort" value="8203"></parameter>
+	  	 <classes>
+	      	 <class name="com.ace2three.test.suite.LoginTestSuite">
+	      		<methods>
+	      		<include name="TS_Login_1"></include>
+	      		
+	      		</methods> 
+	      	
+   			</class>
+   		</classes>
+	  </test> -->
+</suite> <!-- Suite -->
